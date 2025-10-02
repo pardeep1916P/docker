@@ -1,0 +1,21 @@
+# Start from lightweight Alpine
+FROM alpine:latest
+
+# Install required tools: bash, git, Node.js, npm
+RUN apk update && \
+    apk add --no-cache bash git nodejs npm
+
+# Set working directory
+WORKDIR /app
+
+# Clone your portfolio repository
+RUN git clone https://github.com/pardeep1916P/Myportfolio_.git . 
+
+# Install dependencies
+RUN npm install
+
+# Expose the port your app uses
+EXPOSE 4321
+
+# Command to start the app
+CMD ["npm", "start"]
