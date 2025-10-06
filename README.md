@@ -14,8 +14,9 @@ This project showcases my work, skills, and projects in a clean and responsive d
 ### Docker hub image link
 ```bash
 https://hub.docker.com/u/pardeep91
-## 📦 Getting Started
+
 ```
+## 📦 Getting Started
 ---
 
 ### Clone the repository
