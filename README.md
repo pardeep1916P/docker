@@ -42,7 +42,7 @@ docker build -t myportfolio .
 
 ### Run the container
 ```bash
-docker run -d -p4321:4321 --name portfolio-test pardeep91/myportfolio:v1
+docker run -d -p4321:4321 --name portfolio-test pardeep91/myportfolio:v2
 ```
 Now open [http://localhost:4321](http://localhost:4321).
 

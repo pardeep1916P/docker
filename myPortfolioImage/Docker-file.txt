@@ -14,6 +14,12 @@ RUN git clone https://github.com/pardeep1916P/Myportfolio_.git .
 # Install dependencies
 RUN npm install
 
+#ENV setup
+ENV PUBLIC_WEBSOCKET_URL=<optinal-example-PUBLIC_WEBSOCKET_URL>
+ENV PUBLIC_SPOTIFY_CLIENT_ID=<example-PUBLIC_SPOTIFY_CLIENT_ID>
+ENV PUBLIC_FORMSPREE_FORM=<example-formspree>
+ENV GITHUB_TOKEN=<example-GITHUB_TOKEN>
+
 # Expose the port your app uses
 EXPOSE 4321
 
